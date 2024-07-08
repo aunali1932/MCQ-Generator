@@ -1,8 +1,0 @@
-openai
-langchain
-langchain_community
-streamlit
-
-PyPDF2
-
--e .
