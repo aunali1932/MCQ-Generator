@@ -1,0 +1,4 @@
+[2024-07-08 14:03:14,650] 31 root - INFO - Button Working...
+[2024-07-08 14:03:14,651] 34 root - INFO - File Read succesfull
+[2024-07-08 14:03:25,806] 1068 openai._base_client - INFO - Retrying request to /chat/completions in 0.770762 seconds
+[2024-07-08 14:03:37,665] 1068 openai._base_client - INFO - Retrying request to /chat/completions in 1.789350 seconds
