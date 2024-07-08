@@ -4,5 +4,5 @@ langchain_community
 streamlit
 python-dotenv
 PyPDF2
-
+dotenv
 -e .
