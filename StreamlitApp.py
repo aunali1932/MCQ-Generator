@@ -9,9 +9,41 @@ from langchain.callbacks import get_openai_callback
 from src.mcqgenerator.MCQGENERATOR import generate_evaluate_chain
 from src.mcqgenerator.logger_ import logging
 
+RESPONSE_JSON = {
+    "1": {
+        "mcq": "multiple choice question",
+        "options": {
+            "a": "choice here",
+            "b": "choice here",
+            "c": "choice here",
+            "d": "choice here",
+        },
+        "correct": "correct answer",
+    },
+    "2": {
+        "mcq": "multiple choice question",
+        "options": {
+            "a": "choice here",
+            "b": "choice here",
+            "c": "choice here",
+            "d": "choice here",
+        },
+        "correct": "correct answer",
+    },
+    "3": {
+        "mcq": "multiple choice question",
+        "options": {
+            "a": "choice here",
+            "b": "choice here",
+            "c": "choice here",
+            "d": "choice here",
+        },
+        "correct": "correct answer",
+    },
+}
 
-with open('D:\practise\MCQ Generator\Response.json','r') as file:
-    RESPONSE_JSON = json.load(file)
+# with open('D:\practise\MCQ Generator\Response.json','r') as file:
+#     RESPONSE_JSON = json.load(file)
 
 st.title("Mcq Generator With LangChain")
 
